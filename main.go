@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	blackfriday "gopkg.in/russross/blackfriday.v2"
+	blackfriday "github.com/russross/blackfriday/v2"
 )
 
 func processStream(from io.Reader, to io.Writer) error {
